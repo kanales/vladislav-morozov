@@ -209,15 +209,17 @@ nav #close {
   align-items: center;
 }
 
-.sidebar::after {
-  content: "";
-  position: absolute;
-  left: 5%;
-  bottom: 0;
-  width: 90%;
-  height: 0.05em;
-  border-radius: 15px;
-  background-color: #ddd;
+@media screen and (max-width: 700px) {
+  .sidebar::after {
+    content: "";
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 90%;
+    height: 0.05em;
+    border-radius: 15px;
+    background-color: #ddd;
+  }
 }
 
 @media screen and (min-width: 700px) {
