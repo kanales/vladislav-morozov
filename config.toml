@@ -1,0 +1,43 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Vladislav Morozov"
+relativeURLs = "True"
+
+
+[menu]
+[[menu.main]]
+name = "Home"
+identifier="home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Publications"
+url = "/publications/"
+weight = 2
+
+[[menu.main]]
+name = "Talks"
+url = "/talks/"
+weight = 2
+
+[[menu.main]]
+name = "Teaching"
+url = "/teaching/"
+weight = 3
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+
+[[menu.main]]
+name = "CV"
+url = "/cv/"
+weight = 5
+
+[params]
+  name  = "Vladislav Morozov"
+  title = "PhD Candidate & Cute"
+  location = "Universitat Pompeu Fabra, Barcelona"
